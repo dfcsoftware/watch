@@ -268,9 +268,9 @@ apache-other_vhosts_access   /var/log/apache2/other_vhosts_access.log  Y      Y 
 7. NextCloud will send a Talk alert to the CLOUD_USER for new files. These are viewable on a Phone or Watch, if running the Talk app.
 
 The following software packages have to be installed and compiled locally:
- * Berkerly DB <https://www.oracle.com/database/technologies/related/berkeleydb-downloads.html#>
- * Never Before Seen (NBS) <http://ranum.com/security/computer_security/code/nbs.tar>
- * Retail <https://github.com/mbucc/retail>
+ * Berkerly DB - [https://www.oracle.com/database/technologies/related/berkeleydb-downloads.html#](https://www.oracle.com/database/technologies/related/berkeleydb-downloads.html#)
+ * Never Before Seen (NBS) - [http://ranum.com/security/computer_security/code/nbs.tar](http://ranum.com/security/computer_security/code/nbs.tar)
+ * Retail - [https://github.com/mbucc/retail](https://github.com/mbucc/retail)
 
 Refer to the log.sh script for instructions.
 
