@@ -10,8 +10,8 @@
 #
 # Dependencies: 
 #   - Various alert scripts (i.e.: df.sh,...)
-#   - $ mkdir -p ~/.config/alert
-#   - File:      ~/.config/alert/config.txt
+#   - $ mkdir -p ~/.config/watch
+#   - File:      ~/.config/watch/config.txt
 #      export LOCAL_DIR=/home/bob/watch
 #      export SSH_USER=bob
 #   - $ mkdir ${LOCAL_DIR}/alert
@@ -28,9 +28,9 @@
 #   - For each host and each alert script,
 #     Create <alert function>.<hostname>
 #      on the remote host
-#      in directory ~/.config/alert/
+#      in directory ~/.config/watch/
 #   EX:
-#    $ scp ~/.config/alert/df.vm1 bob@vm1:/home/bob/.config/alert/
+#    $ scp ~/.config/watch/df.vm1 bob@vm1:/home/bob/.config/watch/
 #
 # Reference:
 #  https://pcp.readthedocs.io/en/latest/QG/AutomateProblemDetection.html
