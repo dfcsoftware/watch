@@ -11,8 +11,8 @@
 # # Host   ssh    Remote   Remote
 # #        Port   Script   Home
 # # ------ ------ -------- -----------------------
-# vm1      2222   0        /home/don
-# vm2      22     1        /home/data/don
+# vm1      2222   0        /home/bob
+# vm2      22     1        /home/data/bob
 # # Remote Script: 1=run moniter script that is on remote machine 
 # #                0=run monitor script on local, through ssh tunnel
 #```
@@ -77,7 +77,7 @@
 # 17-Aug-2023 Don Cohoon Created
 #######################################
 CONFIG_DIR=~/.config/watch
-LOCAL_HOME=/home/don
+LOCAL_HOME=/home/bob
 MY_HOST=$(hostname -s)
 FIRSTTIME=0
 #######################################
