@@ -93,12 +93,12 @@
 # File: logwatch.vm3
 # #         DB                      File                   Alert  Email          Filter 
 # #------------------------ ------------------------------ ------ ------ -----------------------------------
-# email-messages              /var/log/maillog                N      Y     ${LOCAL_DIR}/email_filter.sh
-# email-connect-messages      /var/log/maillog                Y      Y     ${LOCAL_DIR}/email_connect_filter.sh
-# email-secure                /var/log/secure                 Y      Y     ${LOCAL_DIR}/email_auth_filter.sh
+# email-messages              /var/log/maillog                N      Y     email_filter.sh
+# email-connect-messages      /var/log/maillog                Y      Y     email_connect_filter.sh
+# email-secure                /var/log/secure                 Y      Y     email_auth_filter.sh
 # fail2ban                    /var/log/fail2ban.log           Y      Y     cat
-# nginx-access                /var/log/nginx/access.log       N      Y     ${LOCAL_DIR}/geturl.pl ${LOCAL_DIR}/skip_local_ips.sh
-# nginx-err                   /var/log/nginx/error.log        Y      Y     ${LOCAL_DIR}/skip_local_ips.sh
+# nginx-access                /var/log/nginx/access.log       N      Y     geturl.pl $skip_local_ips.sh
+# nginx-err                   /var/log/nginx/error.log        Y      Y     skip_local_ips.sh
 # fail2ban                    /var/log/fail2ban.log           Y      Y     cat
 #```
 #
