@@ -180,6 +180,29 @@ Usage-Percent-Limit   File-System        Mount-Point
 38                       "/dev/mmcblk1p1"   "/boot/firmware" 
 16                       "/dev/md0"         "/mnt/raid1"
 ```
+Dependencies:
+ 
+> dnf=RedHat; apt=Debian
+ 
+```
+$ sudo dnf install pcp cockpit-pcp python3-pcp # default from cockpit web install
+$ sudo apt install pcp cockpit-pcp python3-pcp # default from cockpit web install
+#   - Systemd Services:
+#     pmcd.service
+#     pmlogger.service
+#     pmie.service
+#     pmproxy.service
+#
+$ sudo dnf install pcp-export-pcp2json         # pcp2json
+$ sudo apt install pcp-export-pcp2json         # pcp2json
+$ sudo dnf install pcp-system-tools            # pmrep
+#
+$ sudo dnf install jq                          # json parser
+$ sudo apt install jq                          # json parser
+#
+$ sudo dnf install ncdu                        # Text-based disk usage viewer
+$ sudo apt install ncdu                        # Text-based disk usage viewer
+```
 
 ### Default is to send an e-mail if limits are exceeded
 
