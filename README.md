@@ -76,7 +76,7 @@ On your Phone you can install NextCloud Sync, log in
 ├── watch
 │   ├── hosts.txt
 │   ├── config.txt
-│   └── df.oak
+│   └── df.vm7
 ```
 
 ## Installation
