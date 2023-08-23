@@ -172,7 +172,8 @@ $ mkdir -p ~/.config/watch
 Example of **df** functional monitor. Each script will describe it's own.
 
 File:  ~/.config/monitor/df.<hostname>
- Usage-Percent-Limit   File-System        Mount-Point
+Usage-Percent-Limit   File-System        Mount-Point
+
 ```
 34                       "/dev/mmcblk1p2"   "/"
 38                       "/dev/mmcblk1p1"   "/boot/firmware" 
