@@ -276,7 +276,7 @@ MAILTO="bob@bob.com"
 
 File: logwatch.vm7
 ```
-# File: logwatch.oak
+# File: logwatch.vm7
 #           DB                      File                               Alert  Email          Filter 
 # ------------------------- ----------------------------------------- ------ ------ -----------------------------------#
 apache-access                /var/log/apache2/access.log               N      Y     geturl.pl skip_local_ips.sh
