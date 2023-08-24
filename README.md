@@ -272,9 +272,9 @@ MAILTO="bob@bob.com"
 */20 * * * * bob  /home/bob/watch/log.sh 
 ```
 
-2. log.sh reads config file ~/.config/watch/logwatch.<hostname>
+2. log.sh reads config file ~/.config/watch/logwatch.\<hostname\>
 
-File: logwatch.oak
+File: logwatch.vm7
 ```
 # File: logwatch.oak
 #           DB                      File                               Alert  Email          Filter 
