@@ -221,15 +221,15 @@ export SEND_MAIL=0
 ## NextCloud Flow Notifications
 
  * Create _new alert user_ in NextCloud
-   * Add the NextCloud server as SERVER in ~/.config/alert/config.txt
-   * Add the NextCloud user as CLOUD_USER in ~/.config/alert/config.txt
-   * Add the NextCloud user's password as CLOUD_PASS in ~/.config/alert/config.txt
+   * Add the NextCloud server as SERVER in ~/.config/watch/config.txt
+   * Add the NextCloud user as CLOUD_USER in ~/.config/watch/config.txt
+   * Add the NextCloud user's password as CLOUD_PASS in ~/.config/watch/config.txt
 
  * As the _new alert user_ in NextCloud;
    * Go to Talk
      * Create a new group Conversation <name>
    * Go to Files and create a new alert directory
-     * Add it as the REMOTE_DIR to ~/.config/alert/config.txt
+     * Add it as the REMOTE_DIR to ~/.config/watch/config.txt
    * Go to Personal Settings > Flow
      * Add a new flow _Write to conversasion_ (blue)
        * When: File created
